@@ -1,0 +1,42 @@
+.itemsToBuy {
+  background-color: rgba(248, 220, 197, 0.658);
+  padding: 50px;
+  border-radius: 40px;
+}
+
+.itemsToBuy button:hover {
+  background-color: rgba(243, 174, 118, 0.658);
+}
+.itemsToBuy ul {
+  padding-left: 0;
+  list-style: none;
+}
+.itemsToBuy li {
+  padding: 10px;
+  color: blue;
+  border-radius: 20px;
+  margin-bottom: 3px;
+}
+.itemsToBuy ul li:hover {
+  cursor: pointer;
+  background-color: rgba(243, 174, 118, 0.658);
+}
+
+.itemsToBuy .notBought {
+  padding-top: 3px;
+  float: right;
+  color: red;
+}
+
+.itemsToBuy .bought {
+  padding-top: 3px;
+  margin-right: 10px;
+  font-weight: bolder;
+  color: black;
+}
+
+.itemsBox {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+}

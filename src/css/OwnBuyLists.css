@@ -1,0 +1,24 @@
+.listOfLists {
+  background-color: rgba(194, 194, 235, 0.61);
+  padding: 20px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.listOfLists h2 {
+  margin-bottom: 20px;
+}
+.listOfLists ul {
+  list-style: none;
+}
+
+.listItem {
+  border-radius: 20px !important;
+  margin-bottom: 10px;
+}
+
+.listItem:hover {
+  cursor: pointer;
+  background-color: rgba(158, 158, 238, 0.61);
+}
